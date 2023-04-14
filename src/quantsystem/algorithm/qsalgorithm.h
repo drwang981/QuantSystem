@@ -28,6 +28,7 @@
 #include <glog/logging.h>
 #include <typeinfo>
 #include <string>
+#include <functional>
 using std::string;
 #include <vector>
 using std::vector;
