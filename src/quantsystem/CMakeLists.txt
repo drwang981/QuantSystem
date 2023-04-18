@@ -81,4 +81,5 @@ add_subdirectory(brokerages)
 add_subdirectory(common)
 add_subdirectory(engine)
 add_subdirectory(indicators)
+add_subdirectory(orderbook)
 

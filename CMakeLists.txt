@@ -57,6 +57,7 @@ endif()
 SET (CMAKE_MODULE_PATH "${MAINFOLDER}/_cmake_scripts")
 include_directories("${MAINFOLDER}/src")
 
+
 # Library
 link_directories("${LIBRARY_OUTPUT_PATH}")
 
