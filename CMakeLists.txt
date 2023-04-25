@@ -64,7 +64,7 @@ link_directories("${LIBRARY_OUTPUT_PATH}")
 # Add thirdparty packages
 include(gmock)
 include(introspect)
-
+include_directories("${MAINFOLDER}/src/quantsystem/orderbook")
 # Configure Files
 configure_file(
   "${PROJECT_SOURCE_DIR}/src/quantsystem/config.h.in"

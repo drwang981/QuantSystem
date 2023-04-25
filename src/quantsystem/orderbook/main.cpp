@@ -54,6 +54,7 @@ int main(int argc, char * argv[]){
         outMessageFileName,
         outBookFileName,
         levels);
+        std::cout << "start book constructor" << std::endl;
         book_constructor->start();
     }
 

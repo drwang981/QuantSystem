@@ -11,16 +11,13 @@ std::string getFileName(const std::string& path) {
 
    char sep = '/';
 
-#ifdef _WIN32
-   sep = '\\';
-#endif
 
    size_t i = path.rfind(sep, path.length());
    if (i != std::string::npos) {
       return(path.substr(i+1, path.length() - i));
    }
 
-   return("");
+   return("order_book");
 }
 
 uint16_t bswap_16(uint16_t value){
